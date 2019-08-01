@@ -10,3 +10,17 @@
 {"message":"Bookmark with id c3f0aaec-db5c-4960-9343-da3cc6c5bcf7 created","level":"info"}
 {"message":"Bookmark with id f28a7ab5-a54f-49a7-b933-37cee8281b02 created","level":"info"}
 {"message":"Bookmarks with id 23 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/65647","level":"error"}
+{"message":"Unauthorized request to path: /bookmarks/2","level":"error"}
+{"message":"Bookmark with id undefined not found","level":"error"}
+{"message":"Bookmark with id undefined not found","level":"error"}
