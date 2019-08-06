@@ -159,3 +159,9 @@
 {"message":"Bookmark with id 2 deleted.","level":"info"}
 {"message":"Bookmark with id 2 deleted.","level":"info"}
 {"message":"Bookmark with id 2 deleted.","level":"info"}
+{"message":"Unauthorized request to path: /api/api/bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /api/api/bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /api/api/bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /api/api/bookmarks/12343","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/2","level":"error"}
+{"message":"Unauthorized request to path: /api/bookmarks/2","level":"error"}
