@@ -1,35 +1,39 @@
 const BookmarksService = {
-    getAllBookmarks(knex) {
-        return knex.select('*').from('bookmarks_list')
-    },
+  getAllBookmarks(knex) {
+    return knex.select("*").from("bookmarks_list");
+  },
 
-    insertBookmark(knex, newBookmark) {
-        return knex
-            .insert(newBookmark)
-            .into('bookmarks_list')
-            .returning('*')
-            .then(rows => {
-                return rows[0]
-            })
-    },
+  insertBookmark(knex, newBookmark) {
+    return knex
+      .insert(newBookmark)
+      .into("bookmarks_list")
+      .returning("*")
+      .then(rows => {
+        return rows[0];
+      });
+  },
 
-    getById(knex, id) {
-        return knex.from('bookmarks_list').select('*').where('id', id).first()
-    },
+  getById(knex, id) {
+    return knex
+      .from("bookmarks_list")
+      .select("*")
+      .where("id", id)
+      .first();
+  },
 
-    deleteBookmark(knex, id) {
-        return knex
-            .from('bookmarks_list')
-            .where({ id })
-            .delete()
-    },
+  deleteBookmark(knex, id) {
+    return knex
+      .from("bookmarks_list")
+      .where({ id })
+      .delete();
+  },
 
-    updateBookmark(knex, id, newBookmarkFields) {
-        return knex
-            .from('bookmarks_list')
-            .where({ id })
-            .update(newBookmarkFields)
-    }
-}
+  updateBookmark(knex, id, newBookmarkFields) {
+    return knex
+      .from("bookmarks_list")
+      .where({ id })
+      .update(newBookmarkFields);
+  }
+};
 
-module.exports = BookmarksService
+module.exports = BookmarksService;
