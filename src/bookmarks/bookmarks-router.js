@@ -71,7 +71,7 @@ bookmarksRouter
             error: { message: "bookmark does not exist" }
           });
         }
-        res.bookmark = bookmark;
+        res.bookmark = bookmark
         next();
       })
       .catch(next);
@@ -90,6 +90,7 @@ bookmarksRouter
       })
       .catch(next);
   })
+
 
   .patch(bodyParser, (req, res, next) => {
 
